@@ -1623,11 +1623,11 @@
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #2b3c54;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #b8b095 15%, #2b3c54 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #b8b095 15%, #2b3c54 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #b8b095 15%, #2b3c54 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #b8b095 15%, #2b3c54 85%);
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1644,7 +1644,7 @@
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #2b3c54;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -2255,7 +2255,7 @@
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #5d9362;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -2316,6 +2316,7 @@
 			padding: 0.65em;
 			margin: 0 0 2em 0;
 			cursor: default;
+			height: auto;
 		}
 
 			.icon.major:before {
@@ -2325,9 +2326,26 @@
 				height: 2.25em;
 				line-height: 2.2em;
 				border-radius: 100%;
-				border: solid 1px;
+
 				text-align: center;
 			}
+
+			.doma {
+				height: 3em;
+			}
+
+		.domahawk {
+			width: 10.7em;
+			height: 10.2em;
+			padding: 0 0.5em;
+			opacity: 0.5;
+
+		}
+		.humanbook {
+			filter: brightness(0.3);
+			border-radius: 5px;
+			padding: 3.1em 3.3em;
+		}
 
 		.icon.alt {
 			display: inline-block;
@@ -2345,7 +2363,7 @@
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			opacity: 0.6;
 		}
 
 		.icon.style2 {
@@ -2363,6 +2381,7 @@
 		.icon.style5 {
 			color: #8cc9f0;
 		}
+
 
 		@media screen and (max-width: 1680px) {
 
@@ -2895,6 +2914,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		flex-wrap: wrap;
 		width: 100%;
 		margin: 0 0 3em 0;
 		padding: 0;
@@ -2903,13 +2923,15 @@
 	}
 
 		.statistics li {
+			font-size: 5rem;
 			-moz-flex: 1;
 			-webkit-flex: 1;
 			-ms-flex: 1;
 			flex: 1;
-			padding: 1.5em;
+			padding: 0.25em;
 			color: #ffffff;
 			text-align: center;
+			text-shadow: 0 0 10px rgba(0,0,0,0.6);
 		}
 
 			.statistics li.style1 {
@@ -3562,10 +3584,10 @@
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #2b3c54, #a89cc8, #b8b095);
+			background-image: -webkit-linear-gradient(90deg, #2b3c54, #a89cc8, #b8b095);
+			background-image: -ms-linear-gradient(90deg, #2b3c54, #a89cc8, #b8b095);
+			background-image: linear-gradient(90deg, #2b3c54, #a89cc8, #b8b095);
 		}
 
 		#main table tbody tr {
