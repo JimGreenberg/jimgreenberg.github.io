@@ -2931,28 +2931,14 @@
 			padding: 0.25em;
 			color: #ffffff;
 			text-align: center;
-			text-shadow: 0 0 10px rgba(0,0,0,0.6);
+			/*text-shadow: 0 0 10px rgba(0,0,0,0.6);*/
 		}
 
-			.statistics li.style1 {
-				background-color: #efa8b0;
-			}
+		.statistics li span {
+			display: inline-block;
+			color: white;
+		}
 
-			.statistics li.style2 {
-				background-color: #c79cc8;
-			}
-
-			.statistics li.style3 {
-				background-color: #a89cc8;
-			}
-
-			.statistics li.style4 {
-				background-color: #9bb2e1;
-			}
-
-			.statistics li.style5 {
-				background-color: #8cc9f0;
-			}
 
 			.statistics li strong, .statistics li b {
 				display: block;
@@ -2963,7 +2949,7 @@
 				letter-spacing: -0.025em;
 			}
 
-			.statistics li:first-child {
+			/*.statistics li:first-child {
 				border-top-left-radius: 8px;
 				border-bottom-left-radius: 8px;
 			}
@@ -2971,11 +2957,10 @@
 			.statistics li:last-child {
 				border-top-right-radius: 8px;
 				border-bottom-right-radius: 8px;
-			}
+			}*/
 
-			.statistics li .icon {
-				display: inline-block;
-			}
+
+
 
 				.statistics li .icon:before {
 					font-size: 2.75rem;
@@ -3583,11 +3568,14 @@
 		}
 
 		#main header.major h2:after {
-			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #2b3c54, #a89cc8, #b8b095);
+			background-image: linear-gradient(90deg, #5b78a2, rgba(0,0,0,0.05));
+			height: 4px;
+			width: 30%;
+
+			/*background-image: -moz-linear-gradient(90deg, #2b3c54, #a89cc8, #b8b095);
 			background-image: -webkit-linear-gradient(90deg, #2b3c54, #a89cc8, #b8b095);
 			background-image: -ms-linear-gradient(90deg, #2b3c54, #a89cc8, #b8b095);
-			background-image: linear-gradient(90deg, #2b3c54, #a89cc8, #b8b095);
+			background-image: linear-gradient(90deg, #2b3c54, #a89cc8, #b8b095);*/
 		}
 
 		#main table tbody tr {
