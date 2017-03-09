@@ -2711,6 +2711,28 @@
 			letter-spacing: -0.025em;
 		}
 
+		header .icon-wrapper {
+			margin: -1em auto 0;
+			font-size: 2em;
+			border-bottom-color: transparent;
+		}
+		header a {
+			display: flex;
+			flex-direction: column;
+			margin: 0 0.5em;
+			opacity: 0.65;
+			border: inherit;
+		}
+		header a label {
+			font-size: 0.5em;
+			font-family: sans-serif;
+			opacity: 0;
+			margin-top: 1em;
+		}
+		header a:hover label {
+			transition: opacity 1s;
+			opacity: 0.65;
+		}
 		header.major.special {
 			text-align: center;
 		}
@@ -2860,6 +2882,9 @@
 		padding: 0;
 		list-style: none;
 	}
+		.features a:hover {
+			cursor: pointer;
+		}
 
 		.features li {
 			width: calc(33.33333% - 2em);
