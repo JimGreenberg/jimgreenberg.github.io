@@ -2317,6 +2317,7 @@
 			margin: 0 0 2em 0;
 			cursor: default;
 			height: auto;
+			opacity: 0.6;
 		}
 
 			.icon.major:before {
@@ -2337,8 +2338,8 @@
 		.domahawk {
 			width: 10.7em;
 			height: 10.2em;
-			padding: 0 0.5em;
-			opacity: 0.5;
+			padding: 1.5em 1.5em 1em;
+			opacity: 0.75;
 
 		}
 		.humanbook {
