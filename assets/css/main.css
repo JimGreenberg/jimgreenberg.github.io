@@ -3041,6 +3041,22 @@
 			color: white;
 		}
 
+		.redux {
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+		}
+		.redux svg {
+			width: 80px;
+			height: 80px;
+		}
+		.redux p {
+			font-size: 1.5rem;
+			color: #764ABC;
+			font-weight: 900;
+			margin-top: -10px;
+		}
+
 
 			.statistics li strong, .statistics li b {
 				display: block;
